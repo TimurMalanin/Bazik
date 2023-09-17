@@ -1,0 +1,13 @@
+actions:
+  - id: prepare
+    actionName: prepareAction
+  - id: compileA
+    actionName: compileAAction
+  - id: compileB
+    actionName: compileBAction
+  - id: link
+    actionName: linkAction
+  - id: test
+    actionName: testAction
+  - id: deploy
+    actionName: deployAction

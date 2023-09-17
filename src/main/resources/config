@@ -1,0 +1,6 @@
+task prepare : {}
+task compileA : {prepare}
+task compileB : {prepare}
+task link : {compileA,compileB}
+task test : {link}
+task deploy : {test}
